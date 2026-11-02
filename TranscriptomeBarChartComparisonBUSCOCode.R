@@ -7,6 +7,18 @@
 # Source review: 31 October 2026. Proposed BUSCO target: 95-99%.
 # Assembly-level labels checked: 30 October 2026. Detailed sources are in README.
 
+#| Color       | Code      | Color     | Code |
+| Navy         | `#1F3A5F` | Burgundy  | `#800020` |
+| Blue         | `#0072B2` | Red       | `#D62728` |
+| Royal blue   | `#4169E1` | Coral     | `#FF7F50` |
+| Sky blue     | `#56B4E9` | Orange    | `#E69F00` |
+| Turquoise    | `#40B5AD` | Gold      | `#F2CA67` |
+| Teal         | `#167D8D` | Mustard   | `#C49A00` |
+| Forest green | `#228B22` | Purple    | `#7B2CBF` |
+| Emerald      | `#009E73` | Lavender  | `#B39DDB` |
+| Olive        | `#808000` | Magenta   | `#CC79A7` |
+| Mint         | `#80CDC1` | Charcoal  | `#404040` |
+
 output_dir <- file.path(getwd(), "Fish_Figures")
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
